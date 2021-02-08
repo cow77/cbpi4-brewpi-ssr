@@ -87,5 +87,5 @@ class CustomSensor(CBPiSensor):
 
 
 def setup(cbpi):
-    cbpi.plugin.register("PT100X_Sensor", CustomSensor)
+    cbpi.plugin.register("brewpi-ssr", CustomSensor)
     pass
